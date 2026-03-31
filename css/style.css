@@ -2032,6 +2032,19 @@ button {
     height: min(68vh, 520px);
   }
 
+  .seq-fighters {
+    bottom: 6%;
+    padding: 0 1%;
+  }
+
+  .seq-fighter {
+    width: 40%;
+  }
+
+  .seq-fighter-image {
+    max-height: min(34vh, 220px);
+  }
+
   .seq-title-card {
     padding: 24px 16px;
   }
