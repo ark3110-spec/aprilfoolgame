@@ -1239,18 +1239,14 @@ button {
     padding: 4px 12px;
   }
 
-  .duel-board {
-    grid-template-columns: 1fr;
-  }
-
   .duel-side {
     min-height: 300px;
     padding: 8px 8px 10px;
   }
 
   .duel-side-rival {
-    border-left: 0;
-    border-top: 1px solid rgba(47, 36, 48, 0.12);
+    border-left: 1px solid rgba(47, 36, 48, 0.12);
+    border-top: 0;
   }
 
   .side-inner,
@@ -1260,8 +1256,8 @@ button {
   }
 
   .side-gauges-right {
-    order: -1;
-    justify-content: flex-start;
+    order: 0;
+    justify-content: flex-end;
   }
 
   .vertical-gauge-track {
