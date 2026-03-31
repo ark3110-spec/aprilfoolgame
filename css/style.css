@@ -1249,9 +1249,13 @@ button {
     border-top: 0;
   }
 
-  .side-inner,
-  .side-inner.rival {
+  .side-inner {
     grid-template-columns: 42px minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .side-inner.rival {
+    grid-template-columns: minmax(0, 1fr) 42px;
     gap: 6px;
   }
 
